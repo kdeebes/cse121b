@@ -19,7 +19,7 @@ myProfile.placesLived = []; // Initialize an empty array for places lived
 
 // Step 7: Add an object literal to the placesLived array
 myProfile.placesLived.push({
-  place: "Bartica, Guyana",
+  place: "Bartica, Essequibo River",
   length: "18 years",
 });
 
