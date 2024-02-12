@@ -1,3 +1,6 @@
+//Name: Kerryann Deebes
+
+
 /* W05: Programming Tasks */
 
 /* Declare and initialize global variables */
@@ -22,7 +25,7 @@ const displayTemples = (temples) => {
 /* async getTemples Function using fetch()*/
 const getTemples = async () => {
     try {
-      const response = await fetch("https://byui-cse.github.io/cse121b-ww-course/resources/temples.json"); // Replace with the actual URL
+      const response = await fetch("https://byui-cse.github.io/cse121b-ww-course/resources/temples.json");
       templeList = await response.json();
       displayTemples(templeList);
     } catch (error) {
